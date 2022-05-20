@@ -1,9 +1,14 @@
 import React from 'react';
+import Hero from './Hero';
+import Navbar from './Navbar';
+import Services from './Services';
 
 const Home = () => {
     return (
-        <div>
-            <h2>This is home</h2>
+        <div className='container mx-auto'>
+
+            <Hero></Hero>
+            <Services></Services>
         </div>
     );
 };
